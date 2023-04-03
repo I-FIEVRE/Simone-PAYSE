@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #87b940;
+}
+
+body {
+    font-family: 'Almarai', arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+nav a {
+    text-align: center;
+    color : #fbfbfb;
+    text-decoration: none;
+    padding: 35px;
+    margin-top: 10px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    border-bottom: 2px solid #87b940;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    border-radius: 50%;
+    size: 25%;
+    border: 2px solid #fbfbfb;
+}
+
+nav a:hover {
+    background-color: #fbfbfb;
+    color: #87b940;
+    /*text-shadow: 5px 5px 10px black;*/
+    font-weight: bold;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
+
+.home-image {
+    width: 100%;
+    border-radius: 30% 30% 4% 4% ;
+    height: auto;
+    grid-column: 2/5;
+    margin-top: 150px;
+    border: 3px solid #fbfbfb;
+}
+
+.msg-home {
+    grid-column: 6/10;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 60px 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-self: center;
+    text-align: center;
+    font-size: medium;
+}
+
+.msg-home h2{
+  color: #444444;
+}
+
+.msg-home h1 {
+    color: #fbfbfb;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #fbfbfb;
+    font-size: medium;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+/*Généalogie*/
+
+.généalogie-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+.g1 {
+    width: 100%;
+    border-radius: 30% 30% 4% 4% ;
+    height: auto;
+    grid-column: 4/9;
+    grid-row: 1/5;
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #fbfbfb;
+}
+
+.msg-g {
+    margin: 50px;
+    font-size: small;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+
+.msg-g h1 {
+    line-height: 90%;
+}
+
+/*Témoignages*/
+
+.msg-t{
+    margin-top: 50px;
+    font-size: small;
+}
+
