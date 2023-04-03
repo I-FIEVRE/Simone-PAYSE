@@ -147,8 +147,19 @@ footer a:hover {
 
 /*Témoignages*/
 
+.t-grid {
+    display: grid;
+    grid-template-columns: 10%, 80%, 10%;
+    grid-template-rows: repeat(5, 20%);
+}
+
 .msg-t{
+    grid-column: 3/4;
     margin-top: 50px;
     font-size: small;
 }
 
+.msg-t h2{
+    text-decoration: underline;
+    font-style: oblique;
+}
