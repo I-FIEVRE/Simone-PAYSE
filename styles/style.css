@@ -3,7 +3,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #87b940;
+    /*background-color: hsla(11, 96%, 51%, 0.912);*/
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    color: #444444;
 }
 
 h2 {
@@ -21,14 +22,17 @@ nav a {
     text-align: center;
     color : #fbfbfb;
     text-decoration: none;
-    padding: 35px;
+    padding: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: 2px solid #fbfbfb;
 }
 
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    border-bottom: 2px solid #87b940;
+    background-color: #db2c2c;
+    border-bottom: 2px solid #db2c2c;
 }
 
 nav {
@@ -52,11 +56,15 @@ nav {
 
 nav a:hover {
     background-color: #fbfbfb;
-    color: #87b940;
-    /*text-shadow: 5px 5px 10px black;*/
+    color: #db2c2c;
     font-weight: bold;
 }
 
+nav a.active{
+    background-color: #fbfbfb;
+    color: #db2c2c;
+    font-weight: bold;
+}
 
 .home-grid {
     display: grid;
@@ -69,7 +77,8 @@ nav a:hover {
     height: auto;
     grid-column: 2/5;
     margin-top: 150px;
-    border: 3px solid #fbfbfb;
+    padding: 10px;
+    border: 3px solid #db2c2c;
 }
 
 .msg-home {
@@ -77,7 +86,6 @@ nav a:hover {
     margin-top: 150px;
     margin-left: 30px;
     margin-right: 30px;
-    border-radius: 60px 60px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -87,21 +95,20 @@ nav a:hover {
     font-size: medium;
 }
 
-.msg-home h2{
-  color: #444444;
-}
 
 .msg-home h1 {
-    color: #fbfbfb;
+    color: #db2c2c;
 }
+
+
 
 footer {
     padding: 25px 50px;
+    border-top: 2px solid #db2c2c;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 2px solid #fbfbfb;
     font-size: medium;
 }
 
@@ -119,47 +126,56 @@ footer a:hover {
 .généalogie-grid {
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(5, 20%);
+    grid-template-rows: repeat(4, 25%);
 }
 
 .g1 {
     width: 100%;
     border-radius: 30% 30% 4% 4% ;
-    height: auto;
-    grid-column: 4/9;
-    grid-row: 1/5;
-    margin: 50px;
+    grid-column: 3/9;
+    grid-row: 2/5;
+    margin-top: 100px;
     padding: 20px;
-    border: 3px solid #fbfbfb;
+    background-color: #69696950;
+    border: 3px solid #db2c2c;
 }
 
 .msg-g {
     margin: 50px;
-    font-size: small;
-    grid-column: 1/4;
-    grid-row: 2/4;
+    font-size: medium;
+    grid-column: 3/9;
+    grid-row: 1/2;
+    text-align: center;
 }
 
+
+.msg-g h3 {
+    line-height: 99%;
+}
 
 .msg-g h1 {
-    line-height: 90%;
+    text-decoration: underline;
 }
+
 
 /*Témoignages*/
 
 .t-grid {
     display: grid;
-    grid-template-columns: 10%, 80%, 10%;
+    grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(5, 20%);
 }
 
 .msg-t{
-    grid-column: 3/4;
+    grid-column: 3/9;
     margin-top: 50px;
-    font-size: small;
+    font-size: medium;
 }
 
-.msg-t h2{
+.msg-t h1{
     text-decoration: underline;
-    font-style: oblique;
+}
+
+.msg-t p{
+    line-height: 90%;
 }
