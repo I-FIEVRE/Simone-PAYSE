@@ -322,13 +322,41 @@ footer a:hover {
 
 
 @media screen and (max-width: 800px) {
+    
+    nav, footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+    }
+
     .column {
       flex: 50%;
       max-width: 50%;
     }
+
+
   }
 
 @media screen and (max-width: 600px) {
+
+    nav, footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+    }
+
     .column {
       flex: 100%;
       max-width: 100%;
