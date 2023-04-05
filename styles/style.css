@@ -175,28 +175,21 @@ footer a:hover {
 
 /*Généalogie*/
 
-.généalogie-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(4, 25%);
-}
-
 .g1 {
-    width: 100%;
+    width: 50%;
     border-radius: 30% 30% 4% 4% ;
-    grid-column: 3/9;
-    grid-row: 2/5;
     margin-top: 100px;
     padding: 20px;
     background-color: #69696950;
     border: 3px solid #db2c2c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .msg-g {
     margin: 50px;
     font-size: medium;
-    grid-column: 3/9;
-    grid-row: 1/2;
     text-align: center;
 }
 
