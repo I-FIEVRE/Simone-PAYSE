@@ -340,6 +340,14 @@ footer a:hover {
         padding-right: 15px;
     }
 
+    .simone {
+        margin-top: 40px;
+    }
+
+    .logo-maman1, .logo-maman2, .logo-maman3 {
+        margin: 10px;
+    }
+
     .column {
       flex: 50%;
       max-width: 50%;
@@ -365,6 +373,14 @@ footer a:hover {
         padding-top: 5px;
         padding-bottom: 5px;
         padding-right: 15px;
+    }
+    
+    .simone {
+        margin-top: 40px;
+    }
+
+    .logo-maman1, .logo-maman2, .logo-maman3 {
+        margin: 10px;
     }
 
     .column {
