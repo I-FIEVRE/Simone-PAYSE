@@ -339,9 +339,11 @@ footer a:hover {
         padding-bottom: 5px;
         padding-right: 15px;
     }
-    .home-image, {
-        size: 80%;
+
+    .home-image {
+        size: 50%;
     }
+
     .simone {
         margin-top: 40px;
     }
@@ -379,6 +381,10 @@ footer a:hover {
     
     .simone {
         margin-top: 40px;
+    }
+
+    .home-image {
+        size: 50%;
     }
 
     .logo-maman1, .logo-maman2, .logo-maman3 {
