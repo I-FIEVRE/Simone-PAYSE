@@ -278,7 +278,7 @@ footer a:hover {
     border: 3px solid #db2c2c;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto; 
 }
 
 .msg-g {
@@ -319,7 +319,11 @@ footer a:hover {
     line-height: 90%;
 }
 
-
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 @media screen and (max-width: 800px) {
     
