@@ -339,7 +339,9 @@ footer a:hover {
         padding-bottom: 5px;
         padding-right: 15px;
     }
-
+    .home-image, {
+        size: 80%;
+    }
     .simone {
         margin-top: 40px;
     }
