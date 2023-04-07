@@ -311,6 +311,14 @@ footer a:hover {
     font-size: medium;
 }
 
+.msg-t h5 {
+    line-height: 99%;
+}
+
+.msg-t h6 {
+    line-height: 10%;
+}
+
 .msg-t h1{
     text-decoration: underline;
 }
