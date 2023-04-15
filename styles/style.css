@@ -115,6 +115,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: #444444;
 }
 
 footer a:hover {
