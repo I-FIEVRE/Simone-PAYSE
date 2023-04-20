@@ -85,6 +85,10 @@ nav a.active{
     border: 3px solid #db2c2c;
 }
 
+.home-image:hover {
+    transform: scale(1.1);
+}
+
 .msg-home {
     grid-column: 6/10;
     margin-top: 150px;
@@ -391,7 +395,17 @@ footer a:hover {
     }
 
     .home-image {
-        size: 50%;
+       width: 80%;
+    }
+
+    .msg-home{
+        margin: auto;
+    }
+
+    .home-image {
+        display: block;
+        margin: 50px auto;
+        
     }
 
     .simone {
@@ -428,16 +442,12 @@ footer a:hover {
         padding-bottom: 5px;
         padding-right: 15px;
     }
-    
+
     .simone {
         margin-top: 40px;
     }
 
-    .home-image {
-        size: 50%;
-    }
-
-    .isa:hover, .isa-2:hover, .photo:hover, .photo-1:hover {
+    .home-image:hover, .isa:hover, .isa-2:hover, .photo:hover, .photo-1:hover {
         transform: none;
     }
 
