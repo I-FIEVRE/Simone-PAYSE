@@ -207,7 +207,7 @@ footer a:hover {
   }
   
   /* Next & previous buttons */
-  .prev,
+  .prev, .prev-1,
   .next {
     cursor: pointer;
     position: absolute;
@@ -221,6 +221,7 @@ footer a:hover {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    text-decoration: none;
   }
   
   /* Position the "next button" to the right */
@@ -229,9 +230,16 @@ footer a:hover {
     border-radius: 3px 0 0 3px;
   }
   
+  /* Position the "prev-1 button" to the left */
+  .prev-1 {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
-  .next:hover {
+  .next:hover, .prev-1:hover {
     background-color: #db2c2c;
     color: #f2f2f2;
   }
@@ -304,6 +312,10 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto; 
+}
+
+.g1:hover {
+    transform: scale(1.5)
 }
 
 .msg-g {
@@ -447,7 +459,7 @@ footer a:hover {
         margin-top: 40px;
     }
 
-    .home-image:hover, .isa:hover, .isa-2:hover, .photo:hover, .photo-1:hover {
+    .home-image:hover, .isa:hover, .isa-2:hover, .photo:hover, .photo-1:hover, .g1:hover {
         transform: none;
     }
 
